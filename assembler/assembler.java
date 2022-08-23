@@ -395,8 +395,8 @@ public class assembler {
 
                     // Each index of splitNumber is now converted into Integer, and then stored into the Integer array
                     // parseString in the order below.
-                    parseString[0] = Integer.parseInt(splitNumber[0]);
-                    parseString[1] = Integer.parseInt(splitNumber[2]);
+                    parseString[0] = Integer.parseInt(splitNumber[2]);
+                    parseString[1] = Integer.parseInt(splitNumber[0]);
                     parseString[2] = Integer.parseInt(splitNumber[1]);
 
                     // Each index of parseString is now converted into Binary, and is stored into the String
@@ -470,9 +470,9 @@ public class assembler {
 
                     // Each index of splitNumber is now converted into Integer, and then stored into the Integer array
                     // parseString in the order below.
-                    parseString[0] = Integer.parseInt(splitNumber[0]);
-                    parseString[1] = Integer.parseInt(splitNumber[2]);
-                    parseString[2] = Integer.parseInt(splitNumber[1]);
+                    parseString[0] = Integer.parseInt(splitNumber[2]); // 2
+                    parseString[1] = Integer.parseInt(splitNumber[0]); // 0
+                    parseString[2] = Integer.parseInt(splitNumber[1]); // 1
 
                     // Each index of parseString is now converted into Binary, and is stored into the String
                     // binary1, binary2, and binary3 respectively.
