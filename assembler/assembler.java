@@ -539,7 +539,7 @@ public class assembler {
 
                     // Our opcode for J is 110. So we append 110 with the binary String binary1.
                     // We store the result in a String object called binaryString.
-                    String binaryString = "110" + binary1;
+                    String binaryString = "111" + binary1;
 
                     // The content of the String binaryString is converted into a decimal number, and is stored into the integer
                     // variable decimal.
@@ -609,7 +609,7 @@ public class assembler {
 
                     // Our opcode for BEQ is 111. So we append 111 with the binary String binary1, binary2, and
                     // binary3. We store the result in a String object called binaryString.
-                    String binaryString = "111" + binary1 + binary2 + binary3;
+                    String binaryString = "110" + binary1 + binary2 + binary3;
 
                     // The content of the String binaryString is converted into a decimal number, and is stored into the integer
                     // variable decimal.

@@ -1,2 +1,8 @@
-BEQ $R4, $R5, 7
-J 6
+ADD $R1, $R2, $R3
+SUB $R4, $R5, $R6
+MULi $R7, $R1, 2
+DIVi $R3, $R4, 5
+LW $R6, 2($R7)
+SW $R1, 4($R2)
+BEQ $R3, $R4, 5
+J 10
